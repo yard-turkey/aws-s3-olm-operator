@@ -24,7 +24,7 @@ if [[ -n "$UPSTREAM" ]]; then
   dockerfile=olm-testing/Dockerfile.upstream
 fi
 
-tag="quay.io/$REGISTRY/federation-operator-registry:v4.0.0"
+tag="quay.io/$REGISTRY/aws-s3-operator-registry:v1.0.0"
 echo "Building operator registry with tag $tag"
 docker build . -f $dockerfile -t $tag --build-arg new_image_name=$new_image_name
 echo "Pushing $tag"
