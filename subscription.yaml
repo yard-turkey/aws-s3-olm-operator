@@ -6,6 +6,6 @@ metadata:
 spec:
   source: aws-s3-provisioner
   sourceNamespace: openshift-operator-lifecycle-manager
-  name: aws-s3-provisioner
-  startingCSV: awss3provisoner.v1.0.0
+  name: awss3operator
+  startingCSV: awss3operator.0.1.0
   channel: alpha
