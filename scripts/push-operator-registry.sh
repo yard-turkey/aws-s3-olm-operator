@@ -18,7 +18,7 @@ if [[ -n "${IMAGE}" ]]; then
   new_image_name=$IMAGE
 fi
 
-dockerfile=Dockerfile
+dockerfile=Dockerfile.upstream
 
 tag="quay.io/$REGISTRY/aws-s3-operator-registry:v1.0.0"
 echo "Building operator registry with tag $tag"
