@@ -1,7 +1,7 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
-  name: awss3provisioner
+  name: awss3operator
   namespace: openshift-operator-lifecycle-manager
 spec:
   sourceType: grpc
