@@ -4,7 +4,7 @@ metadata:
   name: aws-s3-operator-subscription
   namespace: s3-provisioner
 spec:
-  source: aws-s3-provisioner
+  source: awss3operator
   sourceNamespace: openshift-operator-lifecycle-manager
   name: awss3operator
   startingCSV: awss3operator.0.1.0
