@@ -98,7 +98,7 @@ spec:
           - apps
           resources:
           - deployments
-           verbs:
+          verbs:
           - "*"
       deployments:
       - name: aws-s3-provisioner
