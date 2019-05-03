@@ -43,15 +43,10 @@
  
 ```
 
-2. From the operator-registry directory copy the *upstream-example.Dockerfile* to your operators repo root or at the same level of your *manifests* sub directory.
-```
- # cp upstream-example.Dockerfile ../../yard-turkey/aws-s3-olm-operator/.
-```
-
-3. Now build the server-registry and push it.
+2. Now build the server-registry and push it.
 ```
  # cd ../../yard-turkey-aws-s3-olm-operator
- # docker build -t quay.io/screeley44/aws-s3-operator-registry:v1.0.0 -f upstream-example.Dockerfile .
+ # docker build -t quay.io/screeley44/aws-s3-operator-registry:v1.0.0 -f upstream-Dockerfile .
  # docker push quay.io/screeley44/aws-s3-operator-registry:v1.0.0
 ```
 
