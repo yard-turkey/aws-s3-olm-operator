@@ -2,6 +2,13 @@
 
 ### Setup and Building the Registry and Operator
 
+#### Prerequisites
+
+1. Create a quay.io account (if not already done)
+2. Create the following repository in your quay account repo (i.e. quay.io/jdoe/)
+- aws-s3-operator-registry
+3. If you want to build your own aws-s3-provisioner image you can do that as well, but for now you can use screeley44 for the actual provisioner image.
+
 #### Clone Framework Repos
 
 1. Clone the Operator repo
@@ -47,12 +54,16 @@
 ```
  # cd ../../yard-turkey-aws-s3-olm-operator
  # docker build -t quay.io/screeley44/aws-s3-operator-registry:v1.0.0 -f upstream-Dockerfile .
+ # docker push quay.io/<quay account>/aws-s3-operator-registry:v1.0.0
+ 
+ i.e.
+ # docker build -t quay.io/<quay account>/aws-s3-operator-registry:v1.0.0 -f upstream-Dockerfile .
  # docker push quay.io/screeley44/aws-s3-operator-registry:v1.0.0
 ```
 
 #### Install the Catalog and Operator on your OCP 4.0 cluster.
 
-1. Create the Catalog.
+1. Create the Catalog. (Note if you are not using the screeley44 account, you will need to update the catalog-source.yaml)
 
 ```
  # oc create -f ./manifests/awss3operator/catalog-source.yaml
