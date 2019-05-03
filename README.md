@@ -55,3 +55,18 @@
  # docker push quay.io/screeley44/aws-s3-operator-registry:v1.0.0
 ```
 
+#### Install the Catalog and Operator on your OCP 4.0 cluster.
+
+1. Create the Catalog.
+
+```
+ # oc create -f ./manifests/awss3operator/catalog-source.yaml
+```
+
+2. Make sure the catalog is running in the *openshift-operator-lifecycle-manager* project/namespace.
+
+```
+ # oc get pods -n openshift-operator-lifecycle-manager | grep aws*
+```
+
+
