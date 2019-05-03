@@ -1,6 +1,7 @@
 
 #! package-manifest: deploy/chart/catalog_resources/rh-operators/awss3operator.0.1.0.clusterserviceversion.yaml
-packageName: awss3provisioner
+# packageName: awss3provisioner
+packageName: aws-s3-provisioner
 channels:
 - name: alpha
   currentCSV: awss3operator.0.1.0
