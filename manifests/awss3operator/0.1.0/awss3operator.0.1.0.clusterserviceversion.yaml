@@ -53,7 +53,7 @@ spec:
   - type: MultiNamespace
     supported: true
   - type: AllNamespaces
-    supported: true
+    supported: false
 
   install:
     strategy: deployment
