@@ -54,7 +54,7 @@
 2. Now build the server-registry and push it.
 ```
  # cd ../../yard-turkey-aws-s3-olm-operator
- # docker build -t quay.io/<quay account>/aws-s3-operator-registry:v1.0.0 -f upstream-Dockerfile .
+ # docker build --no-cache -t quay.io/<quay account>/aws-s3-operator-registry:v1.0.0 -f upstream-Dockerfile .
  # docker push quay.io/<quay account>/aws-s3-operator-registry:v1.0.0
  
  i.e.
