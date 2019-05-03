@@ -8,7 +8,7 @@
 2. Create the following repository in your quay account repo (i.e. quay.io/jdoe/)
 - aws-s3-operator-registry
 3. If you want to build your own aws-s3-provisioner image you can do that as well, but for now you can use screeley44 for the actual provisioner image.
-4. package name field from <operator>.package.yaml (awss3operator.package.yaml) should match the repository name
+4. packageName field from <operator>.package.yaml (awss3operator.package.yaml) should match the repository name where your actual operator/controller image is stored (i.e. aws-s3-provisioner)
 
 #### Clone Framework Repos
 
