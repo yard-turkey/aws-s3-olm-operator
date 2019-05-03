@@ -73,7 +73,9 @@
 2. Make sure the catalog is running in the *openshift-operator-lifecycle-manager* project/namespace.
 
 ```
- # oc get pods -n openshift-operator-lifecycle-manager | grep aws*
+ # oc get pods -n openshift-operator-lifecycle-manager
 ```
+
+3. Next we can create a subscription - you can do this from the console or create the subscription.yaml
 
 
