@@ -114,7 +114,7 @@ spec:
               serviceAccount: aws-s3-provisioner-0-1-0
               containers:
               - name: aws-s3-provisioner
-                image: quay.io/screeley44/aws-s3-provsioner:v1.0.0
+                image: quay.io/screeley44/aws-s3-provisioner:v1.0.0
   maturity: alpha
   version: 0.1.0
   customresourcedefinitions:
