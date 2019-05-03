@@ -76,6 +76,11 @@
  # oc get pods -n openshift-operator-lifecycle-manager
 ```
 
-3. Next we can create a subscription - you can do this from the console or create the subscription.yaml
+3. Then create the Operator Group using operator-group.yaml
+```
+ # oc create -f ./manifests/awss3operator/operator-group.yaml
+```
+
+4. Next we can create a subscription - you can do this from the console or create the subscription.yaml
 
 
