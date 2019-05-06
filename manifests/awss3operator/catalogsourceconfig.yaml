@@ -1,8 +1,8 @@
 apiVersion: "operators.coreos.com/v1"
 kind: "CatalogSourceConfig"
 metadata:
-  name: "installed-upstream-community-operators"
-  namespace: "marketplace"
+  name: "Red Hat Provisioner"
+  namespace: "openshift-marketplace"
 spec:
-  targetNamespace: local-operators
+  targetNamespace: s3-provisioner
   packages: awss3operator
