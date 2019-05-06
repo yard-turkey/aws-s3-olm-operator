@@ -2,7 +2,7 @@ apiVersion: operators.coreos.com/v1
 kind: OperatorSource
 metadata:
   name: community-operators
-  namespace: marketplace
+  namespace: s3-provisioner
 spec:
   type: appregistry
   endpoint: https://quay.io/cnr
