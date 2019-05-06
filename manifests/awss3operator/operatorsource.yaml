@@ -2,10 +2,10 @@ apiVersion: operators.coreos.com/v1
 kind: OperatorSource
 metadata:
   name: community-operators
-  namespace: s3-provisioner
+  namespace: openshift-marketplace
 spec:
   type: appregistry
   endpoint: https://quay.io/cnr
-  registryNamespace: community-operators
+  registryNamespace: openshift-marketplace
   displayName: "Community Operators"
   publisher: "Red Hat"
