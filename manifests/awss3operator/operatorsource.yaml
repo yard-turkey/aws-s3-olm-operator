@@ -5,7 +5,8 @@ metadata:
   namespace: openshift-marketplace
 spec:
   type: appregistry
-  endpoint: https://quay.io/cnr
+#  endpoint: https://quay.io/cnr
+  endpoint: https://quay.io/screeley44/aws-s3-operator-registry
   registryNamespace: openshift-marketplace
   displayName: "Community Operators"
   publisher: "Red Hat"
