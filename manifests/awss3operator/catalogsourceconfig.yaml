@@ -1,7 +1,7 @@
 apiVersion: "operators.coreos.com/v1"
 kind: "CatalogSourceConfig"
 metadata:
-  name: "Red Hat Provisioner"
+  name: "community-operator-provisioners"
   namespace: "openshift-marketplace"
 spec:
   targetNamespace: s3-provisioner
