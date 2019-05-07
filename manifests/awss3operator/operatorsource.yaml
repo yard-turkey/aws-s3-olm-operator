@@ -7,6 +7,6 @@ spec:
   type: appregistry
   endpoint: https://quay.io/cnr
 #  endpoint: https://quay.io/screeley44/aws-s3-operator-registry
-  registryNamespace: openshift-marketplace
+  registryNamespace: screeley44
   displayName: "Community Operators"
   publisher: "Red Hat"
