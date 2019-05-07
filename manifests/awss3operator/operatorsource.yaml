@@ -1,12 +1,12 @@
 apiVersion: operators.coreos.com/v1
 kind: OperatorSource
 metadata:
-  name: community-operators
+  name: community-operators-test
   namespace: openshift-marketplace
 spec:
   type: appregistry
   endpoint: https://quay.io/cnr
 #  endpoint: https://quay.io/screeley44/aws-s3-operator-registry
   registryNamespace: screeley44
-  displayName: "Community Operators"
+  displayName: "Community Operators Test"
   publisher: "Red Hat"
